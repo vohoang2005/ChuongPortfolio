@@ -19,7 +19,7 @@
   "engines": {
     "node": "17.1.0"
   },
-  "name": "Chuong_Vo",
+  "name": "chuong_vo",
   "description": "Chuong Vo Portfolio",
   "version": "1.0.0",
   "main": "index.js",
