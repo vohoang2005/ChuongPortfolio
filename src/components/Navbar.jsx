@@ -32,8 +32,8 @@ const Navbar = () => {
             </Link>
             </li>
             <li>              
-              <Link to="work" smooth={true} offset={50} duration={500}>
-              Works
+              <Link to="projects" smooth={true} offset={50} duration={500}>
+              Projects
             </Link>
             </li>
             <li>              
@@ -67,8 +67,8 @@ const Navbar = () => {
               Skills
             </Link></li>
             <li className='py-6 text-4xl'>              
-            <Link onClick={handleClick} to="work" smooth={true} offset={50} duration={500}>
-              Works
+            <Link onClick={handleClick} to="projects" smooth={true} offset={50} duration={500}>
+              Projects
             </Link></li>
             <li className='py-6 text-4xl'>              
             <Link onClick={handleClick} to="contact" smooth={true} offset={50} duration={500}>
@@ -81,19 +81,19 @@ const Navbar = () => {
                 <ul>
                   <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
                     <a className="flex justify-between items-center w-full text-gray-300"
-                    href="/">
+                    href="https://www.linkedin.com/in/chuonghvo/">
                       LinkedIn <FaLinkedin size={30} />
                     </a>
                   </li>
                   <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]">
                     <a className="flex justify-between items-center w-full text-gray-300"
-                    href="/">
+                    href="https://github.com/vohoang2005">
                       Github <FaGithub size={30} />
                     </a>
                   </li>
                   <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]">
                     <a className="flex justify-between items-center w-full text-gray-300"
-                    href="/">
+                    href="vohoang2005@gmail.com">
                       Email <HiOutlineMail size={30} />
                     </a>
                   </li>
