@@ -1,6 +1,5 @@
 import React, {useState} from 'react';
 import { FaBars, FaTimes, FaGithub, FaLinkedin} from 'react-icons/fa';
-import {HiOutlineMail} from 'react-icons/hi';
 import {BsFillPersonLinesFill} from 'react-icons/bs';
 import Logo from '../assets/logo.png';
 import {Link} from 'react-scroll';
@@ -90,12 +89,6 @@ const Navbar = () => {
                     <a className="flex justify-between items-center w-full text-gray-300"
                     href="https://github.com/vohoang2005">
                       Github <FaGithub size={30} />
-                    </a>
-                  </li>
-                  <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]">
-                    <a className="flex justify-between items-center w-full text-gray-300"
-                    href="mailto:vohoang2005@gmail.com">
-                      Email <HiOutlineMail size={30} />
                     </a>
                   </li>
                   <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
